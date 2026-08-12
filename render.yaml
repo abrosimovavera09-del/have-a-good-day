@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: wish-service
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    envVars:
-      - key: GIGACHAT_AUTH_KEY
-        sync: false
